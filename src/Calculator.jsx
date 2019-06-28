@@ -48,7 +48,7 @@ class Calculator extends React.Component {
         return (
             <div>
                 <div>{this.state.topText}</div>
-                <button value="1" onClick={this.handleClick}>1</button>
+                <Button value="1" onClick={() => this.handleClick()}/>
                 <button value="2" onClick={this.handleClick}>2</button>
                 <button value="3" onClick={this.handleClick}>3</button>
                 <button value="4" onClick={this.handleClick}>4</button>
